@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<downlist>
+
+    <!-- If the "isDownload" is true, the file will be downloaded.-->
+
+    <task title="test">
+        <isDownload>true</isDownload>
+        <url>https://baidu.com</url>
+    </task>
+
+</downlist>
