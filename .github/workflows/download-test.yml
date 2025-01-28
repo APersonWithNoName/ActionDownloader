@@ -1,22 +1,14 @@
-name: Auto download
-on:
-  push:
-    tags: v*
+name: Auto download Test
+on: [push]
 
 jobs:
   Download:
     runs-on: ubuntu-latest
     steps:
       - name: Install Deps
-        run: sudo apt install -y wget python3
-      - name: Setup Env
-        run: bash envsetup.sh
-      - name: Download Files
-        id: Download_Files
-        run: ${VENV_PYTHON} download.py
-      - name: Make Zip
-        id: Make_Zip
-        run: sudo zip -r ../files.zip ./
+        run: sudo apt install -y wget python3 zip 
+      - name: Run
+        run: bash run.sh
       - name: Release
         uses: actions/upload-release-asset@v1
         env:

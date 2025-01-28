@@ -5,7 +5,7 @@
 
     <task title="test">
         <isDownload>true</isDownload>
-        <url>https://baidu.com</url>
+        <url>https://google.com</url>
     </task>
 
 </downlist>
