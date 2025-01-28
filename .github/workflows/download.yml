@@ -20,6 +20,8 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           token: ${{ secrets.MY_GITHUB_TOKEN }}
+          automatic_release_tag: Test Action
+          title: Test Action
           prerelease: false
           files: |
             ${{ github.workspace }}/FILES.zip
