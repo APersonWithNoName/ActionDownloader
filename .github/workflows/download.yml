@@ -12,7 +12,7 @@ jobs:
           pwd
           cd ${{ github.workspace }}
           ls
-          bash run.sh
+          bash ${{ github.workspace }}/run.sh
           ls
       - name: Release
         uses: softprops/action-gh-release@v2
