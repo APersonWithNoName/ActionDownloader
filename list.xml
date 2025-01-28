@@ -4,8 +4,18 @@
     <!-- If the "isDownload" is true, the file will be downloaded.-->
 
     <task title="test">
-        <isDownload>true</isDownload>
+        <isDownload>false</isDownload>
         <url>https://google.com</url>
     </task>
 
+    <task title="Waydroid-18.1-system-VANILLA">
+        <isDownload>true</isDownload>
+        <url>https://downloads.sourceforge.net/project/waydroid/images/system/lineage/waydroid_x86_64/lineage-18.1-20250125-VANILLA-waydroid_x86_64-system.zip?ts=gAAAAABnmN4PvpjsBIY124X67jHCWGji-ZaeDzcH-pyWEnSflF_VSA3oYWIX-JqCOFAgGma3_6WVvpHNZlasQU3coJWUlJrY1A%3D%3D&r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fwaydroid%2Ffiles%2Fimages%2Fsystem%2Flineage%2Fwaydroid_x86_64%2Flineage-18.1-20250125-VANILLA-waydroid_x86_64-system.zip%2Fdownload</url>
+    </task>
+
+    <task title="Waydroid-18.1-vendor-MAINLINE>
+        <isDownload>true</isDownload>
+        <url>https://downloads.sourceforge.net/project/waydroid/images/system/lineage/waydroid_x86_64/lineage-18.1-20250125-VANILLA-waydroid_x86_64-system.zip?ts=gAAAAABnmN4PvpjsBIY124X67jHCWGji-ZaeDzcH-pyWEnSflF_VSA3oYWIX-JqCOFAgGma3_6WVvpHNZlasQU3coJWUlJrY1A%3D%3D&r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fwaydroid%2Ffiles%2Fimages%2Fsystem%2Flineage%2Fwaydroid_x86_64%2Flineage-18.1-20250125-VANILLA-waydroid_x86_64-system.zip%2Fdownload</url>
+    </task>
+    
 </downlist>
