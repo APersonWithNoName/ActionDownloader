@@ -13,7 +13,7 @@
         <url> https://nchc.dl.sourceforge.net/project/waydroid/images/system/lineage/waydroid_x86_64/lineage-18.1-20250125-VANILLA-waydroid_x86_64-system.zip</url>
     </task>
 
-    <task title="Waydroid-18.1-vendor-MAINLINE>
+    <task title="Waydroid-18.1-vendor-MAINLINE">
         <isDownload>true</isDownload>
         <url>https://nchc.dl.sourceforge.net/project/waydroid/images/vendor/waydroid_x86_64/lineage-18.1-20250125-MAINLINE-waydroid_x86_64-vendor.zip</url>
     </task>
