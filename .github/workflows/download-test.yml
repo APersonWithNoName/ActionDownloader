@@ -1,7 +1,5 @@
-name: Auto download
-on:
-  push:
-    tags: v*
+name: Auto download Test
+on: [push]
 
 jobs:
   Download:
