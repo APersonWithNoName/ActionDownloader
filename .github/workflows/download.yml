@@ -5,6 +5,8 @@ jobs:
   Download:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout
+        uses: actions/checkout@v1
       - name: Install Deps
         run: sudo apt install -y wget python3 zip 
       - name: Run
