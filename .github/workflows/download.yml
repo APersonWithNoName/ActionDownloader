@@ -1,0 +1,24 @@
+name: Auto download
+on: [push]
+
+jobs:
+  Download:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install Deps
+        run: sudo apt install -y wget python3 zip 
+      - name: Run
+        run: |
+          pwd
+          cd ${{ github.workspace }}
+          ls
+          bash run.sh
+          ls
+      - name: Release
+        uses: softprops/action-gh-release@v2
+        with:
+          token: ${{ secrets.MY_GITHUB_TOKEN }}
+          prerelease: false
+          files: |
+            ${{ github.workspace }}/FILES.zip
+        
